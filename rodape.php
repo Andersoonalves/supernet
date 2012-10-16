@@ -2,16 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>Rodapé</title>
 <?php
 include "css.php";
 ?>
 </head>
 
 <body>
-
+   
 <div id="fundo_rodape">
-
+     
 	<div id="conteudo_rodape">
     
     <div id="links_principal">
