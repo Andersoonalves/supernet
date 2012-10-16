@@ -45,15 +45,9 @@ body {
 }
 
 #busca{
-	background:#F60;
-	
-	width:144px;
-	max-width:144px;
-	height:144px;
-	max-height:144px;
-	
-	margin-top:40px;
-	margin-right:40px;
-		
-	float:right;
-}
+	max-width:350px;
+	margin-left:1100px;
+	padding-top:80px;
+	max-height:40px;
+	min-height:40px;
+	}

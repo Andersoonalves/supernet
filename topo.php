@@ -26,6 +26,7 @@ include "css.php";
 		</div><!-- menu -->
     
   		<div id="busca">
+                <img src="imagens/backgrund.png"/>
    	 		<!--<input name="pesquisar" type="text" id="pesquisar" value="Pesquisar..." />-->
 		</div><!-- busca -->
   		   		

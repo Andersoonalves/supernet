@@ -7,9 +7,7 @@
 include "css.php";
 ?>
 </head>
-
 <body>
-
 <div id="fundo_contato">
 	<div id="conteudo_contato">
     
@@ -49,7 +47,7 @@ include "css.php";
                               </tr>
                             </table>
                                 </center>
-</form>
+				</form>
         	
         </div><!-- conteudo cenntro -->
         
