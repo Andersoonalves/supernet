@@ -19,7 +19,7 @@
 
 #links_principal {
 	margin-top:20px;
-	margin-left:50px;
+	margin-left:100px;
 	width:15%;
 	float:left;
 }
@@ -66,6 +66,8 @@ li a:hover {
 }
 
 .fb-like-box{
+	background:#FFF;
+	box-shadow: 3px 3px 3px #000;
 	margin-top:10px;
-	margin-left:70px;
-	}
+	margin-left:90px;
+}
