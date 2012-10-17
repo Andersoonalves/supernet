@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>Rodapé</title>
 <?php
 include "css.php";
 ?>
@@ -10,8 +10,18 @@ include "css.php";
 
 <body>
 
-<div id="fundo_rodape">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
+   
+<div id="fundo_rodape">
+     
 	<div id="conteudo_rodape">
     
     <div id="links_principal">
@@ -48,7 +58,11 @@ include "css.php";
             <li><a href="#">Dúvidas</li>
             <li><a href="#">Fale Conosco</li>
         </ul>
-    </div><!-- principal -->
+    </div><!-- Atendimento -->
+    
+    <div class="fb-like-box" data-href="https://www.facebook.com/sePalmeiras" data-width="292" data-height="200"
+ data-show-faces="true" data-stream="false" data-header="true"></div><!-- LikeBox -->
+     
 	</div><!-- conteudo rodape -->
 
 </div><!-- fundo rodape -->
