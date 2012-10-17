@@ -12,6 +12,7 @@ body {
 }
 
 #conteudo_empresa{
+	padding-top:1px;
 	margin:0 auto;
 	background-image:url(../imagens/background_paginas2.png);
 	box-shadow:#000;
