@@ -13,7 +13,11 @@ include "css.php";
 <div id="fundo_planos">
 
 	<div id="conteudo_planos">
-	<h1 style="text-align:center">Planos.php</h1>            
+		<center>
+        	<div id="frame">
+				<h1>Planos.php</h1>  
+        	</div> 
+        </center>            
 	</div><!-- conteudo_planos -->
         
 </div><!-- fundo_planos -->

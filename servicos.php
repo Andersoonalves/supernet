@@ -13,7 +13,11 @@ include "css.php";
 <div id="fundo_servico">
 
 	<div id="conteudo_servico">
-		<h1 style="text-align:center">Servicos.php</h1>
+		<center>
+        	<div id="frame">
+				<h1>Servicos.php</h1>  
+        	</div> 
+        </center> 
 	</div><!-- conteudo_servico -->
         
 </div><!-- fundo_servico -->

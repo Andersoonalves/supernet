@@ -13,7 +13,11 @@ include "css.php";
 <div id="fundo_parceiros">
 
 	<div id="conteudo_parceiros">
-	<h1 style="text-align:center">Parceiros.php</h1>            
+		<center>
+        	<div id="frame">
+				<h1>Parceiros.php</h1>  
+        	</div> 
+        </center>            
 	</div><!-- conteudo_parceiros -->
         
 </div><!-- fundo_parceiros -->

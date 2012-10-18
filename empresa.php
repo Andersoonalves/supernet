@@ -13,7 +13,11 @@ include "css.php";
 <div id="fundo_empresa">
 
 	<div id="conteudo_empresa">
-		<h1 style="text-align:center">Empresa.php</h1>      
+    	<center>
+        	<div id="frame">
+				<h1>Empresa.php</h1>  
+        	</div> 
+        </center>   
 	</div><!-- conteudo_empresa -->
         
 </div><!-- fundo_empresa -->
