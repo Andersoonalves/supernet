@@ -13,7 +13,11 @@ include "css.php";
 <div id="fundo_home">
 
 	<div id="conteudo_home">
-         
+         <center>
+        	<div id="banner">
+				<h1>Empresa.php</h1>  
+        	</div> <!-- banner -->
+        </center> 
 	</div><!-- conteudo_home -->
         
 </div><!-- fundo_home -->
