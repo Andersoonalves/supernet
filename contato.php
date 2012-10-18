@@ -17,10 +17,9 @@ include "css.php";
           Fale Conosco
           </h1>
           <div class="textojustificado">
-            <p>Entre em contato com nossa equipe e tire dúvidas, solicite informações ou 
-              mesmo envie suas sugestões e críticas para que possamos melhorar nosso serviço 
-              e atendê-lo sempre da melhor forma:</p>
-            </br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entre em contato com nossa equipe e tire dúvidas, 
+            	solicite informações ou mesmo envie suas sugestões e críticas para que possamos melhorar 
+                nosso serviço e atendê-lo sempre da melhor forma:</p>
             </br>
           </div>
           <center>
@@ -30,23 +29,23 @@ include "css.php";
               
               <table width="39%" border="0" align="left" cellspacing="0" cellpadding="0">
                 <tr>
-                  <td style="color:#fff">Nome:<br>
+                  <td height="60" style="color:#fff">Nome:<br>
                     <input type="text" size="30" name="nome" value=""></td>
                 </tr>
                 <tr>
-                  <td style="color:#fff">E-mail:<br>
+                  <td height="60" style="color:#fff">E-mail:<br>
                     <input type="text" size="30" name="email" value=""></td>
                 </tr>
                 <tr>
-                  <td style="color:#fff">Assunto:<br>
+                  <td height="60" style="color:#fff">Assunto:<br>
                     <input type="text" size="30" name="assunto" value=""></td>
                 </tr>
                 <tr>
-                  <td style="color:#fff">Mensagem:<br>
+                  <td height="60" style="color:#fff">Mensagem:<br>
                     <textarea cols="40" rows="10" name="mensagem"></textarea></td>
                 </tr>
                 <tr>
-                  <td><input name="submit" type="submit" value=" Enviar ">
+                  <td height="60"><input name="submit" type="submit" value=" Enviar ">
                     &nbsp;
                     <input name="reset" type="reset" value=" Limpar "></td>
                 </tr>

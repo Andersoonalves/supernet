@@ -32,18 +32,14 @@ h1, h2, h3, p {
 
 /* Seletor responsável pelo estilo dos frames de todas as páginas */
 #frame {	
-	-moz-border-radius: 30px; /* Para Firefox */
-	-webkit-border-radius: 30px; /*Para Safari e Chrome */
-	border-radius: 30px; /* Para Opera 10.5+*/
 	
-	box-shadow: 6px 6px 15px #000;
 	
-	opacity:0.60;
-	-moz-opacity: 0.60;
-	filter: alpha(opacity=60);	
+	box-shadow: 3px 3px 30px #000;
+	
+		
 		
 	margin-top:10px;
 	width:90%;
 	height:660px;
-	background:#C30;	
+	background-image:url(../imagens/opacidade.png);
 }
