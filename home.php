@@ -13,11 +13,13 @@ include "css.php";
 <div id="fundo_home">
 
 	<div id="conteudo_home">
-         <center>
         	<div id="banner">
-				<h1>Empresa.php</h1>  
+                <object type="application/x-shockwave-flash" data="swf/teste.swf" width="100%" height="100%">
+				<param name="allowScriptAccess" value="sameDomain" />
+				<param name="movie" value="swf/teste.swf" />
+				<param name="wmode" value="transparent" />
+				</object>  
         	</div> <!-- banner -->
-        </center> 
 	</div><!-- conteudo_home -->
         
 </div><!-- fundo_home -->

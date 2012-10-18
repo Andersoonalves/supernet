@@ -18,7 +18,7 @@ include "css.php";
 		</div><!-- logo -->
     
     	<div id="menu">
-			<object type="application/x-shockwave-flash" data="swf/menu.swf" width="600" height="130">
+			<object type="application/x-shockwave-flash" data="swf/menu.swf" width="100%" height="130">
 				<param name="allowScriptAccess" value="sameDomain" />
 				<param name="movie" value="swf/menu.swf" />
 				<param name="wmode" value="transparent" />

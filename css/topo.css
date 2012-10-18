@@ -4,8 +4,13 @@
 body {
 	margin:0;
 	font-family:Verdana, Geneva, sans-serif;
-	font-size:16px;
+	font-size:1em;
 	color:#000;
+}
+
+a img, img {
+	max-width:100%;
+	height: auto;
 }
 
 #tudo {
@@ -27,27 +32,28 @@ body {
 }
 
 #logo{
-	width:367px;
-	max-width:367px;
+	width:28%;
 	height:144px;
-	max-height:144px;
 	
-	margin-top:30px;
-	margin-left:50px;
+	margin-top:2%;
+	margin-left:3%;
 		
 	float:left;
 }
 
 #menu{
-	margin-left:60px;
-	margin-top:30px;
+	width:45%;
+	height:auto;
+	margin-left:3%;
+	margin-top:2%;
 	float:left;
 }
 
 #busca{
 	max-width:350px;
-	margin-left:1100px;
-	padding-top:80px;
-	max-height:40px;
-	min-height:40px;
-	}
+	width:17%;
+	height:auto;
+	margin-top:6%;
+	margin-left:2%;
+	float:left;
+}

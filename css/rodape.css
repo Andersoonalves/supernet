@@ -18,8 +18,9 @@
 }
 
 #links_principal {
-	margin-top:20px;
-	margin-left:100px;
+	word-wrap:break-word;
+	margin-top:1.5%;
+	margin-left:7%;
 	width:15%;
 	float:left;
 }
@@ -39,8 +40,9 @@
 }
 	
 .links_rodape {
-	margin-top:20px;
-	margin-left:10px;
+	word-wrap:break-word;
+	margin-top:1.5%;
+	margin-left:1%;
 	padding-right:0px;
 	width:13%;
 	float:left;
@@ -68,6 +70,6 @@ li a:hover {
 .fb-like-box{
 	background:#FFF;
 	box-shadow: 3px 3px 3px #000;
-	margin-top:10px;
-	margin-left:90px;
+	margin-top:0.7%;
+	margin-left:7%;
 }
