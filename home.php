@@ -14,10 +14,9 @@ include "css.php";
 
 	<div id="conteudo_home">
         	<div id="banner">
-                <object type="application/x-shockwave-flash" data="swf/teste.swf" width="100%" height="100%">
+                <object type="application/x-shockwave-flash" data="swf/banner.swf" width="100%" height="100%">
 				<param name="allowScriptAccess" value="sameDomain" />
-				<param name="movie" value="swf/teste.swf" />
-				<param name="wmode" value="transparent" />
+				<param name="movie" value="swf/banner.swf" />
 				</object>  
         	</div> <!-- banner -->
 	</div><!-- conteudo_home -->
