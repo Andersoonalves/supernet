@@ -98,7 +98,7 @@ $row = mysql_num_rows($sql);
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<title>Supernet</title>
+<title>Supernet - Admin</title>
 </head>
 
 <body>

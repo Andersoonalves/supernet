@@ -1,13 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Contato</title>
-<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
 <?php
 include "css.php";
 ?>
-<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="fundo_contato">
@@ -19,9 +17,9 @@ include "css.php";
           Fale Conosco
           </h1>
           <div class="textojustificado">
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entre em contato com nossa equipe e tire dúvidas, 
-            	solicite informações ou mesmo envie suas sugestões e críticas para que possamos melhorar 
-                nosso serviço e atendê-lo sempre da melhor forma:</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entre em contato com nossa equipe e tire d&uacute;vidas, 
+            	solicite informa&ccedil;&otilde;es ou mesmo envie suas sugest&otilde;es e cr&iacute;ticas para que possamos melhorar 
+                nosso servi&ccedil;o e atend&ecirc;-lo sempre da melhor forma:</p>
             </br>
           </div>
           <center>
@@ -32,26 +30,21 @@ include "css.php";
               <table width="39%" border="0" align="left" cellspacing="0" cellpadding="0">
                 <tr>
                   <td height="60" style="color:#fff">Nome:<br>
-                  <span id="validadarNome">
-                  <input name="nome" type="text" value="" size="30" maxlength="20" />
-                  <span class="textfieldMaxCharsMsg">Excedido o número máximo de caractéres</span>Campo Obrigatório. </span></td>
+                    <input name="nome" type="text" value="" size="30" maxlength="20" /></td>
                 </tr>
                 <tr>
                   <td height="60" style="color:#fff">E-mail:<br>
-                  <span id="validarEmail">
-                  <input type="text" size="30" name="email" value="" />
-                  <span class="textfieldInvalidFormatMsg">Invalid format.</span>Campo Obrigatório.</span></td>
+                    <input type="text" size="30" name="email" value="" /></td>
                 </tr>
                 <tr>
                   <td height="60" style="color:#fff">Assunto:<br>
-                    <span id="sprytextfield3">
                     <input type="text" size="30" name="assunto" value="" />
-                    E-mail inválido. Campo Obrigatório.
-                    </span></td>
+                  </td>
                 </tr>
                 <tr>
                   <td height="60" style="color:#fff">Mensagem:<br>
-                    <textarea cols="40" rows="10" name="mensagem"></textarea></td>
+                    <textarea cols="40" rows="10" name="mensagem"></textarea>
+                  </td>
                 </tr>
                 <tr>
                   <td height="60"><input name="submit" type="submit" value=" Enviar ">
@@ -75,6 +68,12 @@ include "css.php";
 var sprytextfield1 = new Spry.Widget.ValidationTextField("validadarNome", "none", {maxChars:50});
 var sprytextfield2 = new Spry.Widget.ValidationTextField("validarEmail", "email");
 var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3", "email");
+var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield", "none", {maxChars:50});
+var sprytextfield5 = new Spry.Widget.ValidationTextField("sprytextfield2", "email", {maxChars:50});
+var sprytextfield6 = new Spry.Widget.ValidationTextField("sprytextfield6", "none", {maxChars:100});
+var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1");
+var sprytextfield7 = new Spry.Widget.ValidationTextField("sprytextfield1");
+var sprytextfield8 = new Spry.Widget.ValidationTextField("sprytextfield2");
 </script>
 </body>
 </html>

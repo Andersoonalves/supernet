@@ -1,7 +1,8 @@
 <?php
-$e = $_POST['listEstados'];
-$c = $_POST['listCidades'];
+session_start();
 
-echo $e."\n";
-echo $c;
+$_SESSION['estado'] = $_POST['listEstados'];
+$_SESSION['cidade'] = $_POST['listCidades'];
+
+header("Location:../index.php");
 ?>
