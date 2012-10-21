@@ -29,15 +29,18 @@ include "css.php";
 		$estado = $_SESSION['estado']; ;
 		$cidade = $_SESSION['cidade']; ;
 	  ?>
-      <table width="100" border="0" cellpadding="3" cellspacing="3">
+      <table width="100%" height="10px" border="0" cellpadding="4" cellspacing="4">
         <tr>
           <p id="primeira_linha">Você está em:</p>
         </tr>
         <tr>
-          <td style="color:#fff; text-align:center; font-size:10px;
-          font-weight:bold; line-height:1%; padding-left:4%;" id="cidade"><?php echo $cidade; ?></td>
-          <td style="color:#fff; text-align:center; font-size:10px;
-          font-weight:bold; line-height:1%; padding-left:1%;" id="estado"><?php echo $estado; ?></td>
+          <td style="color:#fff; font-size:10px;
+          font-weight:bold; line-height:2%; padding-left:2%;" id="cidade"><?php echo $cidade; ?>
+          </td>
+          </tr>
+          <tr>
+          <td style="color:#fff; font-size:10px;
+          font-weight:bold; line-height:2%; padding-left:2%;" id="estado"><?php echo $estado; ?></td>
         </tr>
       </table>
       
