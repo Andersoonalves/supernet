@@ -63,17 +63,5 @@ include "css.php";
   <!-- conteudo contato --> 
 </div>
 <!-- fundo_contato -->
-
-<script type="text/javascript">
-var sprytextfield1 = new Spry.Widget.ValidationTextField("validadarNome", "none", {maxChars:50});
-var sprytextfield2 = new Spry.Widget.ValidationTextField("validarEmail", "email");
-var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3", "email");
-var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield", "none", {maxChars:50});
-var sprytextfield5 = new Spry.Widget.ValidationTextField("sprytextfield2", "email", {maxChars:50});
-var sprytextfield6 = new Spry.Widget.ValidationTextField("sprytextfield6", "none", {maxChars:100});
-var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1");
-var sprytextfield7 = new Spry.Widget.ValidationTextField("sprytextfield1");
-var sprytextfield8 = new Spry.Widget.ValidationTextField("sprytextfield2");
-</script>
 </body>
 </html>
