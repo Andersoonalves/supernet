@@ -6,3 +6,5 @@
 <link href="css/contato.css" rel="stylesheet" type="text/css">
 <link href="css/parceiros.css" rel="stylesheet" type="text/css">
 <link href="css/servicos.css" rel="stylesheet" type="text/css">
+<link href="css/login.css" rel="stylesheet" type="text/css">
+<link href="css/conteudo_home.css" rel="stylesheet" type="text/css">

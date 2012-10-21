@@ -22,51 +22,32 @@ include "css.php";
     </div>
     <!-- menu -->
     
-    <div id="busca">
+    <div id="login">
       <?php
 		session_start();
 		
 		$estado = $_SESSION['estado']; ;
 		$cidade = $_SESSION['cidade']; ;
 	  ?>
-      <table width="100%" height="10px" border="0" cellpadding="4" cellspacing="4">
-        <tr>
-          <p id="primeira_linha">Você está em:</p>
-        </tr>
-        <tr>
-          <td style="color:#fff; font-size:10px;
-          font-weight:bold; line-height:2%; padding-left:2%;" id="cidade"><?php echo $cidade; ?>
-          </td>
-          </tr>
-          <tr>
-          <td style="color:#fff; font-size:10px;
-          font-weight:bold; line-height:2%; padding-left:2%;" id="estado"><?php echo $estado; ?></td>
-        </tr>
-      </table>
       
-      <table id="formulario" width="170" border="0" cellpadding="0" cellspacing="0">
-      <form action="" method="post" name="login">
-      		<tr>
-          		<td>
-                <label id="label_login" for="login">Login: </label>
-                <input id="login" name="" type="text" />
-                </td>
-            </tr>
-            <tr>
-            	<td>
-                <label id="label_senha" for="senha">Senha: </label>
-                <input type="password" id="senha" name="" type="text" />
-                </td>
-            </tr>
-            <tr>
-            	<td>
-                <input id="logar" name="entrar" type="submit" value="Entrar" />
-                </td>
-            </tr>
+      
+      <form class="form-2">
+        <h1><span class="log-in">Faça seu Login</span></h1>
+        <p class="float">
+          <label for="login"><i class="icon"><img src="imagens/user.png"/></i>Usuário</label>
+          <input type="text" name="login" placeholder="login ou e-mail">
+        </p>
+        <p class="float">
+          <label for="password"><i class="icon"><img src="imagens/senha.png" /></i>Senha</label>
+          <input type="password" name="password" placeholder="Password" class="showpassword">
+        </p>
+        <p class="clearfix"> <a href="#" class="log-twitter">Cadastre-se</a>
+          <input type="submit" name="submit" value="Entrar">
+        </p>
       </form>
-      </table>
+      
     </div>
-    <!-- busca --> 
+    <!-- login --> 
     
   </div>
   <!-- bg --> 
@@ -74,4 +55,37 @@ include "css.php";
 </div>
 <!-- tudo -->
 </body>
+	<!-- JQuery para mostrar a senha 
+    
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+			    $(".showpassword").each(function(index,input) {
+			        var $input = $(input);
+			        $("<p class='opt'/>").append(
+			            $("<input type='checkbox' class='showpasswordcheckbox' id='showPassword' />").click(function() {
+			                var change = $(this).is(":checked") ? "text" : "password";
+			                var rep = $("<input placeholder='Password' type='" + change + "' />")
+			                    .attr("id", $input.attr("id"))
+			                    .attr("name", $input.attr("name"))
+			                    .attr('class', $input.attr('class'))
+			                    .val($input.val())
+			                    .insertBefore($input);
+			                $input.remove();
+			                $input = rep;
+			             })
+			        ).append($("<label for='showPassword'/>").text("Mostrar Senha")).insertAfter($input.parent());
+			    });
+
+			    $('#showPassword').click(function(){
+					if($("#showPassword").is(":checked")) {
+						$('.icon-lock').addClass('icon-unlock');
+						$('.icon-unlock').removeClass('icon-lock');    
+					} else {
+						$('.icon-unlock').addClass('icon-lock');
+						$('.icon-lock').removeClass('icon-unlock');
+					}
+			    });
+			});
+		</script>-->
 </html>
