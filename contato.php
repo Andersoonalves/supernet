@@ -3,9 +3,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Contato</title>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
 <?php
 include "css.php";
 ?>
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="fundo_contato">
@@ -30,15 +32,22 @@ include "css.php";
               <table width="39%" border="0" align="left" cellspacing="0" cellpadding="0">
                 <tr>
                   <td height="60" style="color:#fff">Nome:<br>
-                    <input type="text" size="30" name="nome" value=""></td>
+                  <span id="validadarNome">
+                  <input name="nome" type="text" value="" size="30" maxlength="20" />
+                  <span class="textfieldMaxCharsMsg">Excedido o número máximo de caractéres</span>Campo Obrigatório. </span></td>
                 </tr>
                 <tr>
                   <td height="60" style="color:#fff">E-mail:<br>
-                    <input type="text" size="30" name="email" value=""></td>
+                  <span id="validarEmail">
+                  <input type="text" size="30" name="email" value="" />
+                  <span class="textfieldInvalidFormatMsg">Invalid format.</span>Campo Obrigatório.</span></td>
                 </tr>
                 <tr>
                   <td height="60" style="color:#fff">Assunto:<br>
-                    <input type="text" size="30" name="assunto" value=""></td>
+                    <span id="sprytextfield3">
+                    <input type="text" size="30" name="assunto" value="" />
+                    E-mail inválido. Campo Obrigatório.
+                    </span></td>
                 </tr>
                 <tr>
                   <td height="60" style="color:#fff">Mensagem:<br>
@@ -62,5 +71,10 @@ include "css.php";
 </div>
 <!-- fundo_contato -->
 
+<script type="text/javascript">
+var sprytextfield1 = new Spry.Widget.ValidationTextField("validadarNome", "none", {maxChars:50});
+var sprytextfield2 = new Spry.Widget.ValidationTextField("validarEmail", "email");
+var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3", "email");
+</script>
 </body>
 </html>

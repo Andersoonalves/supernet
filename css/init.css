@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+}
+
+#fundo_init{
+	margin:auto;
+	width:767px;
+	height:649px;
+}
+
+#init {
+	margin-top: 1%;
+	width:100%;
+	height:100%;
+	background-image:url(../imagens/inicial.png);
+	box-shadow: 3px 3px 10px #000;	
+}
+
+#box_regiao {
+	position:relative;
+	top:70.5%;
+	left:53.8%;
+	width:320px;
+	height:110px;
+}
+
+#enviar {
+	margin-top:2px;
+	-moz-border-radius: 2px; /* Para Firefox */
+	-webkit-border-radius: 2px; /*Para Safari e Chrome */
+	border-radius: 2px; /* Para Opera 10.5+*/
+	background-color:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	height:22px;
+	color:#333;
+}
+
+
