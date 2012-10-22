@@ -3,18 +3,19 @@
 
 #conteudos{  /* Div mãe, onde estão os conteudos */
 	margin-top:4.5%;
-	margin-left:2.5%;
+	margin-left:6%;
 	width:60%;
 	height:40%;
 	float:left;
 }
 
 #conteudos2{
-	margin-top:4.5%;
-	margin-left:2.5%;
-	width:30%;
+	margin-top:2.5%;
+	margin-left:1.5%;
+	width:20%;
 	height:40%;
-	border:1px solid #fff;
+	padding-left:6%;
+	padding-top:3%;
 	float:left;
 }
 

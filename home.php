@@ -49,8 +49,7 @@ include "css.php";
      <!-- conteudos -->
      
      <div id="conteudos2">
-    		Deu sono e não deu pra fazer a caixinha de gravar os e-mails para envio de newsletter :'(
-            Mas pelo menos ja inclui e ajustei a div, é só colocar o conteúdo aqui dentro e voilá!
+    		<img src="imagens/newsletter.png" />
      </div>
      
   </div>
