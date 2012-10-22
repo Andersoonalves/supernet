@@ -23,38 +23,36 @@ include "css.php";
       <section class="ib-container" id="ib-container">
         <article>
           <header>
-            <h3><a href="#">Teste de Velocidade</a></h3>
-            <span>Teste sua velocidade</span> </header>
-          <p>Essa porra vai ficar fodaaaaaa</p>
+          	<a href="#"><img id="velocimetro" src="imagens/CAA.png" />
+            <h3>Teste de Velocidade</a></h3>
+          </header>
         </article>
         <article> 
 			<header>
-            <h3><a href="#">Escolha o melhor Plano</a></h3>
-            <span>Planos</span> </header>
-          <p>Temos os melhores planos para voce economizar</p>    
+            <a href="#"><img id="boleto" src="imagens/boleto.png" />
+            <h3>2ª Via Boleto Bancário</a></h3>
+            </header>   
        </article>
         <article> 
 			<header>
-            <h3><a href="#">Acorda Dhuy</a></h3>
-            <span>Acordandoooo</span> </header>
-          <p>Fome do caralhoo</p>    
+            <a href="#"><img id="promocoes" src="imagens/raio.png" />
+            <h3>Promoções Supernet</a></h3>
        </article>
-        <article> 
+       <article> 
 			<header>
-            <h3><a href="#">Acorda Dhuy</a></h3>
-            <span>Acordandoooo</span> </header>
-          <p>Fome do caralhoo</p>    
-       </article>
-        <article> 
-			<header>
-            <h3><a href="#">Acorda Dhuy</a></h3>
-            <span>Acordandoooo</span> </header>
-          <p>Fome do caralhoo</p>    
+            <a href="#"><img id="internet" src="imagens/internet.png" />
+            <h3>Assine e Navegue Já!</a></h3>
        </article>
         <!-- fim dos conteudos --> 
       </section>
     </div>
      <!-- conteudos -->
+     
+     <div id="conteudos2">
+    		Deu sono e não deu pra fazer a caixinha de gravar os e-mails para envio de newsletter :'(
+            Mas pelo menos ja inclui e ajustei a div, é só colocar o conteúdo aqui dentro e voilá!
+     </div>
+     
   </div>
   <!-- conteudo_home --> 
   

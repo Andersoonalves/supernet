@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>RodapÃ©</title>
+<title>Rodapé</title>
 <?php
 include "css.php";
 ?>
@@ -37,8 +37,8 @@ include "css.php";
     <div class="links_rodape">
        	<ul>
         	<li><p class="titulo">Servicos</p></li>
-            <li><a href="#">2Âª Via do Boleto</a></li>
-            <li><a href="#">Internet Via RÃ¡dio</a></li>
+            <li><a href="#">2ª Via do Boleto</a></li>
+            <li><a href="#">Internet Via Rádio</a></li>
             <li><a href="#">Redes</a></li>
         </ul>
     </div><!-- servicos -->
@@ -55,12 +55,12 @@ include "css.php";
         	<li><p class="titulo">Atendimento</p></li>
             <li><a href="#">Atendimento On-line</a></li>
             <li><a href="#">Perguntas Frequentes</li>
-            <li><a href="#">DÃºvidas</li>
+            <li><a href="#">Dúvidas</li>
             <li><a href="#">Fale Conosco</li>
         </ul>
     </div><!-- Atendimento -->
     
-    <div class="fb-like-box" data-href="https://www.facebook.com/sePalmeiras" data-width="292" data-height="200"
+    <div class="fb-like-box" data-href="https://www.facebook.com/pages/Supernet/159681850793098" data-width="292" data-height="200"
  data-show-faces="true" data-stream="false" data-header="true"></div><!-- LikeBox -->
      
 	</div><!-- conteudo rodape -->

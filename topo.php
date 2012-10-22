@@ -31,7 +31,7 @@ include "css.php";
 	  ?>
       
       
-      <form class="form-2">
+      <form class="form-2" method="post" action="">
         <h1><span class="log-in">Faça seu Login</span></h1>
         <p class="float">
           <label for="login"><i class="icon"><img src="imagens/user.png"/></i>Usuário</label>
@@ -41,8 +41,8 @@ include "css.php";
           <label for="password"><i class="icon"><img src="imagens/senha.png" /></i>Senha</label>
           <input type="password" name="password" placeholder="Password" class="showpassword">
         </p>
-        <p class="clearfix"> <a href="#" class="log-twitter">Cadastre-se</a>
-          <input type="submit" name="submit" value="Entrar">
+        <!-- <p class="clearfix"> <a href="#" class="log-twitter">Cadastre-se</a> -->
+          <input id="botaoEntrar" type="submit" name="submit" value="Entrar">
         </p>
       </form>
       
