@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Home</title>
+
 <?php
 include "css.php";
 ?>
@@ -11,15 +12,58 @@ include "css.php";
 <body>
 <div id="fundo_home">
   <div id="conteudo_home">
-    <div id="banner">
-      <object type="application/x-shockwave-flash" data="swf/banner.swf" width="100%" height="100%">
-        <param name="allowScriptAccess" value="sameDomain" />
-        <param name="movie" value="swf/banner.swf" />
-      </object>
+    
+    <div id="banner"> 
+
+     <div id='coin-slider'>
+     <a href="#" target="">
+       <img src='imagens/1.jpg' >
+        <span>
+          <b>Imagem 1</b><br>
+         Description for img01
+         </span>
+      </a>
+        <a href="#">
+       <img src='imagens/2.jpg' >
+        <span>
+          <b> Imagem 2</b><br>
+         Description for img01
+         </span>
+      </a>
+        <a href="#">
+       <img src='imagens/3.jpg' >
+        <span>
+          <b> Imagem 3</b><br>
+         Description for img01
+         </span>
+      </a>
+        <a href="#">
+       <img src='imagens/4.jpg' >
+        <span>
+          <b> Imagem 4</b><br>
+         Description for img01
+         </span>
+      </a>
+        <a href="#">
+       <img src='imagens/5.jpg' >
+        <span>
+          <b> Imagem 5</b><br>
+         Description for img01
+         </span>
+      </a>
+       <a href="#">
+       <img src='imagens/6.jpg' >
+        <span>
+          <b> Imagem 5</b><br>
+         Description for img01
+         </span>
+      </a>
+  </div> <!-- Slides -->
     </div>
+
     <!-- banner -->
     
-    <div id="conteudos"> <!-- Conteudos abaixo do banner -->
+     <div id="conteudos"> <!-- Conteudos abaixo do banner -->
       <section class="ib-container" id="ib-container">
         <article>
           <header>
@@ -43,19 +87,23 @@ include "css.php";
             <a href="#"><img id="internet" src="imagens/internet.png" />
             <h3>Assine e Navegue Já!</a></h3>
        </article>
-        <!-- fim dos conteudos --> 
+      <!-- fim dos conteudos -->
       </section>
-    </div>
-     <!-- conteudos -->
-     
-     <div id="conteudos2">
-    		<img src="imagens/newsletter.png" />
-     </div>
+      </div>
+   <!-- conteudos -->
      
   </div>
   <!-- conteudo_home --> 
   
 </div>
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+  $('#coin-slider').coinslider({ width: 1200, height:380, 
+    navigation: true, delay: 5000, hoverPause: true, titleSpeed:1000, spw: 10, sph: 5});
+         });
+  </script>
 <!-- fundo_home -->
 </body>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>

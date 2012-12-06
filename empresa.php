@@ -3,9 +3,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Empresa</title>
+
+<link href="css/empresa.css">
+
 <?php
 include "css.php";
 ?>
+
+
 </head>
 
 <body>
@@ -14,9 +19,11 @@ include "css.php";
 
 	<div id="conteudo_empresa">
     	<center>
-        	<div id="frame">
-				<h1>Empresa.php</h1>  
-        	</div> 
+        <div id="frame">
+        	<h1>Sobre a Supernet</h1>
+			
+			
+        </div> 
         </center>   
 	</div><!-- conteudo_empresa -->
         

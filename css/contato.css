@@ -27,13 +27,79 @@ body {
 	padding-top:30px;
 	margin:0 auto;
 	width:100%;
-	max-width:610px;
+	max-width:1000px;
 	height:100%;
 	max-height:760px;
 	min-height:760px;
 }
 
-.textojustificado{
-	text-align:justify;
+
+.col { float: left; margin-right: 30px }
+.col_12 { width: 450px }
+
+.float_r { 
+	float: right; 
 }
-	
+
+.img_float_r { 
+	margin: 3px 0 5px 15px; 
+} 
+.float_l { 
+	float: left; 
+}
+
+#contact_form { 
+	padding: 0; 
+	width: 410px; 
+	margin-bottom: 40px; 
+}
+
+#contact_form form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#contact_form form .input_field { 
+	width: 270px; 
+	padding: 5px; 
+	background: #e7e7e0; 
+	border: 1px solid #c8c8bd; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form label { 
+	display: block; 
+	width: 100px; 
+	margin-right: 12px; 
+	font-size: 13px; 
+}
+
+#contact_form form textarea { 
+	width: 398px; 
+	height: 200px; 
+	padding: 5px; 
+	color: #333; 
+	background: #e7e7e0; 
+	border: 1px solid #c8c8bd; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form .submit_btn { 
+	padding: 5px 14px; 
+	color: #333; 
+	background: #e7e7e0; 
+	border: 1px solid #c8c8bd;
+	font-size:14px; 
+	margin: 10px 0px;
+}	
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }

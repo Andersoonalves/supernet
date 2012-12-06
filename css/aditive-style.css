@@ -1,0 +1,25 @@
+@import url(assets/css/bootstrap.css);
+
+.footer {
+	background-color: gray;
+}
+
+.row-fluid {
+	margin-top: 30px;
+}
+
+.hero-unit{
+	background-color: #ADD8E6;
+}
+
+p {
+color: #FFF;	
+}
+
+#frame {		
+	box-shadow: 3px 3px 30px #000;		
+	margin-top:10px;
+	width:90%;
+	height:660px;
+	background-image:url(../imagens/opacidade.png);
+}
