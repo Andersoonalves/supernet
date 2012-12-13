@@ -17,90 +17,124 @@ include "css.php";
 
      <div id='coin-slider'>
      <a href="#" target="">
-       <img src='imagens/1.jpg' >
+       <img src='imagens/1.gif' >
         <span>
           <b>Imagem 1</b><br>
          Description for img01
          </span>
       </a>
         <a href="#">
-       <img src='imagens/2.jpg' >
+       <img src='imagens/2.gif' >
         <span>
           <b> Imagem 2</b><br>
          Description for img01
          </span>
       </a>
         <a href="#">
-       <img src='imagens/3.jpg' >
+       <img src='imagens/3.gif' >
         <span>
           <b> Imagem 3</b><br>
          Description for img01
          </span>
       </a>
         <a href="#">
-       <img src='imagens/4.jpg' >
+       <img src='imagens/4.gif' >
         <span>
           <b> Imagem 4</b><br>
          Description for img01
          </span>
       </a>
         <a href="#">
-       <img src='imagens/5.jpg' >
+       <img src='imagens/5.gif' >
         <span>
           <b> Imagem 5</b><br>
          Description for img01
          </span>
       </a>
        <a href="#">
-       <img src='imagens/6.jpg' >
+       <img src='imagens/6.gif' >
         <span>
           <b> Imagem 5</b><br>
          Description for img01
          </span>
       </a>
   </div> <!-- Slides -->
-    </div>
+    </div><!-- banner -->
 
-    <!-- banner -->
+    
     
      <div id="conteudos"> <!-- Conteudos abaixo do banner -->
-      <section class="ib-container" id="ib-container">
-        <article>
-          <header>
-          	<a href="#"><img id="velocimetro" src="imagens/CAA.png" />
-            <h3>Teste de Velocidade</a></h3>
-          </header>
-        </article>
-        <article> 
-			<header>
-            <a href="#"><img id="boleto" src="imagens/boleto.png" />
-            <h3>2ª Via Boleto Bancário</a></h3>
-            </header>   
-       </article>
-        <article> 
-			<header>
-            <a href="#"><img id="promocoes" src="imagens/raio.png" />
-            <h3>Promoções Supernet</a></h3>
-       </article>
-       <article> 
-			<header>
-            <a href="#"><img id="internet" src="imagens/internet.png" />
-            <h3>Assine e Navegue Já!</a></h3>
-       </article>
-      <!-- fim dos conteudos -->
-      </section>
-      </div>
-   <!-- conteudos -->
+
+          <ul class="ch-grid">
+          <li>
+            <div class="ch-item ch-img-1">        
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-1"></div>
+                  <div class="ch-info-back">
+                    <h3>Velocimetro</h3>
+                    <p>by Josh Schott <a href="http://drbl.in/ewUW">View on Dribbble</a></p>
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-2">        
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-3"></div>
+                  <div class="ch-info-back">
+                    <h3>Bears Type</h3>
+                    <p>by Josh Schott <a href="http://drbl.in/ewUW">View on Dribbble</a></p>
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-3">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-3"></div>
+                  <div class="ch-info-back">
+                    <h3>Salon Spaces illustrations</h3>
+                    <p>by Jeremy Slagle <a href="http://drbl.in/elmi">View on Dribbble</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-4">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-4"></div>
+                  <div class="ch-info-back">
+                    <h3>Leadership Series #3</h3>
+                    <p>by Dustin Leer <a href="http://drbl.in/dfhn">View on Dribbble</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+
+
+
+      </div><!-- conteudos -->
+   
      
-  </div>
-  <!-- conteudo_home --> 
+  </div><!-- conteudo_home --> 
+  
   
 </div>
 
 
 <script type="text/javascript">
   $(document).ready(function() {
-  $('#coin-slider').coinslider({ width: 1200, height:380, 
+  $('#coin-slider').coinslider({ width: 1024, height:380, 
     navigation: true, delay: 5000, hoverPause: true, titleSpeed:1000, spw: 10, sph: 5});
          });
   </script>
